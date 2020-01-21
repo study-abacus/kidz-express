@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Kidz Express website",
   "scripts": {
-    "build-css": "node-sass ./scss/style.scss ./css/style.css"
+    "build-css": "node-sass ./scss/style.scss ./css/style.css",
+    "build": "gulp build"
   },
   "author": "Jatin Katyal <jatin.katyal13@gmail.com>",
   "license": "ISC",

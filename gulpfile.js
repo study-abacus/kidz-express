@@ -39,3 +39,5 @@ gulp.task('html', function () {
     .pipe(gulpExt('.html'))
     .pipe(gulp.dest('dist'));
 });
+
+gulp.task('build', gulp.series('sass', 'copy', 'html'))
